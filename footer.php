@@ -2,12 +2,12 @@
 	<footer class="footer">
 	    <p class="touch-me">{ Touch with me through😀 }</p>
 	    <div class="social">
-	        <a target="_blank" href="<?php echo limi_get_talk( 'text_Facebook','https://www.facebook.com/limiZHM'); ?>">Facebook</a>
-	        <a target="_blank" href="<?php echo limi_get_talk( 'text_Twitter','https://twitter.com/limiZHM'); ?>">Twitter</a>
+	        <a target="_blank" href="<?php echo limi_get_talk( 'text_facebook','https://www.facebook.com/limiZHM'); ?>">Facebook</a>
+	        <a target="_blank" href="<?php echo limi_get_talk( 'text_twitter','https://twitter.com/limiZHM'); ?>">Twitter</a>
 	        <a href="mailto:<?php echo limi_get_talk( 'text_email','494378361@qq.com'); ?>">E-Mail</a>
-	        <a target="_blank" href="<?php echo limi_get_talk( 'text_Weibo','https://weibo.com/2459706594/'); ?>">Weibo</a>
-	        <a target="_blank" href="<?php echo limi_get_talk( 'text_Dribbble','https://dribbble.com/limileo'); ?>">Dribbble</a>
-	        <a target="_blank" href="<?php echo limi_get_talk( 'text_GitHub','https://github.com/limileo'); ?>">GitHub</a>
+	        <a target="_blank" href="<?php echo limi_get_talk( 'text_weibo','https://weibo.com/2459706594/'); ?>">Weibo</a>
+	        <a target="_blank" href="<?php echo limi_get_talk( 'text_dribbble','https://dribbble.com/limileo'); ?>">Dribbble</a>
+	        <a target="_blank" href="<?php echo limi_get_talk( 'text_gitHub','https://github.com/limileo'); ?>">GitHub</a>
 	    </div>
 	    <p class="copyright"><?php echo limi_get_talk( 'text_copyright','Copyright © 2018 Limi'); ?> | <span><i class="fa fa-heart fa-pong"></i> Theme by <a href="http://www.limiabc.com" target="_blank">Limi</a></span></p>
 		

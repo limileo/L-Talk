@@ -81,14 +81,14 @@ $options[] = array(
 $options[] = array(
 	'name' => 'Facebook' ,
 	'desc' => 'Facebook主页链接.',
-	'id' => 'text_Facebook',
+	'id' => 'text_facebook',
 	'std' => 'https://www.facebook.com/limiZHM',
 	'type' => 'text'
 );
 $options[] = array(
 	'name' => 'Twitter' ,
 	'desc' => 'Twitter主页链接.',
-	'id' => 'text_Twitter',
+	'id' => 'text_twitter',
 	'std' => 'https://twitter.com/limiZHM',
 	'type' => 'text'
 );
@@ -102,21 +102,21 @@ $options[] = array(
 $options[] = array(
 	'name' => 'Weibo' ,
 	'desc' => 'Weibo主页链接.',
-	'id' => 'text_Weibo',
+	'id' => 'text_weibo',
 	'std' => 'https://weibo.com/2459706594/',
 	'type' => 'text'
 );
 $options[] = array(
 	'name' => 'Dribbble' ,
 	'desc' => 'Dribbble主页链接.',
-	'id' => 'text_Dribbble',
+	'id' => 'text_dribbble',
 	'std' => 'https://dribbble.com/limileo',
 	'type' => 'text'
 );
 $options[] = array(
 	'name' => 'GitHub' ,
 	'desc' => 'GitHub主页链接.',
-	'id' => 'text_GitHub',
+	'id' => 'text_gitHub',
 	'std' => 'https://github.com/limileo',
 	'type' => 'text'
 );
