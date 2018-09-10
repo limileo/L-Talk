@@ -14,6 +14,7 @@
 	</footer>
 	<a class="to-top"><img src="<?php echo get_template_directory_uri();?>/images/top.png"></a>
 	<?php wp_footer(); ?>
+	<script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
 	<!-- 导航效果 -->
 	<script src="<?php echo get_template_directory_uri();?>/js/easing.js"></script>
 	<script src="<?php echo get_template_directory_uri();?>/js/moveline.js"></script>
