@@ -205,7 +205,7 @@ canvas#glscreen {
 .intro {margin-left: 14rem;font-size: .65rem;line-height: 1.5;word-break: break-all;color: #828a92;height: 100%;position: relative;}
 .intro h3{margin-top: 0px;font-weight:300; margin-bottom: .65rem;line-height: 1.4em;color: #3d464d;display: block;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;}
 .intro .abstract {font-size: 14px;font-weight: 300;position: relative;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;line-height: 2rem;}
-.info {font-size: .65rem;word-break: break-all;color: #828a92;margin-top: 34px;line-height: 1.2;vertical-align: middle;bottom: 1rem;width: 100%;padding-left: 14rem;}
+.info {position: relative;font-size: 12px;word-break: break-all;color: #828a92;margin-top: 34px;line-height: 1.2;vertical-align: middle;bottom: 1rem;width: 100%;padding-left: 14rem;}
 .intro a {color: #1f1f1f;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;}
 .intro a:hover {color: #FFC107;text-decoration: none;}
 .container li {border-radius: 4px;padding: 20px;border: 1px solid #efefef94;margin-top: 24px; -webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;}
@@ -222,7 +222,7 @@ canvas#glscreen {
     -o-transition: all 0.3s ease;
 }
 span.tips_box{position: absolute;top: 10px;left: 10px;font-size: 12px; color: #fff;background:#0000008a;border-radius: 10px;padding: 2px 10px;}
-span.view_box {float: left;position: relative;top: -16px;left: -150px;z-index: -1;}
+span.view_box {float: left;position: absolute;top: 2px;left: 14px;z-index: -1;}
 .l_mate a {color: #c1c1c1;padding: 2px 4px; background-color:#fbfbfb;margin-left: 10px; border:1px solid #f5f5f5;border-radius:4px;}
 .l_mate a:hover {color: #8a9299;text-decoration: none;}
 span.tips_box a {
@@ -914,6 +914,9 @@ p.actitle_tags span a {
 }
 .top-header,.header {
     display: none;
+}
+span.view_box {
+	display: none;
 }
 }
 
