@@ -135,6 +135,13 @@ add_filter( 'wp_resource_hints', 'remove_dns_prefetch', 10, 2 );
 
 //禁止加载wp-embeds.mins.js
 include (TEMPLATEPATH . '/inc/disable_embeds.php');
+//自定义导航
+register_nav_menus(
+array(
+'header-menu' => __( 'top_menu' )
+)
+);
+include (TEMPLATEPATH . '/inc/limi_nav.php');
 
 
 /*
