@@ -35,7 +35,7 @@
 	</div>
 		<?php endwhile; ?>
 	<?php endif; ?>	
-	<!-- 返回顶部 -->
+	<script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
 	<script src="<?php echo get_template_directory_uri();?>/js/toTop.min.js"></script>
 	   <script>
 	       jQuery(function($){
