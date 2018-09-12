@@ -86,6 +86,8 @@ a:active{text-decoration:none;/* 指正在点的链接*/
 .ityped-cursor {
 	color: #ffc107;
 	font-size: 40px;
+	animation: caretFlash .3s cubic-bezier(0,.3,.8,1) 0s infinite alternate;
+    transition: all .2s cubic-bezier(0,.3,.8,1);
 }
 .limi_type {
     position: relative;
@@ -101,6 +103,7 @@ a:active{text-decoration:none;/* 指正在点的链接*/
     background: #000;
     opacity: .55;
 }
+@keyframes caretFlash{0%{opacity:0;}20%{opacity:0;}40%{opacity:1}80%{opacity:1}100%{opacity:0}}
 
 /* 作品列表 */
 .case_box {
@@ -318,6 +321,9 @@ p.actitle_tags span a:hover {
 	color: #fff;
 	text-shadow: 0px 1px 2px #333;
 }
+.article_title span {
+	white-space:nowrap;
+}
 .datas-container {
 	background: #fff;
 	position: relative;
@@ -372,7 +378,7 @@ p.actitle_tags span a:hover {
 .box_work {
     position: absolute;
     bottom: 0px;
-    z-index: 200;
+    z-index: 10;
     width: 100%;
 }
 .box_work_l{
@@ -397,7 +403,7 @@ p.actitle_tags span a:hover {
 	text-align: center;
     width: 100%;
     position: absolute;
-    z-index: 99;
+    z-index: 11;
     top: 40%;
     color: #fff;
 }
@@ -563,7 +569,34 @@ loading动画
 *默认页面样式
 */
 .page_content{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-top: 60px;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6e6e6e;
+}
+.page_content ol{
+   margin: 0 auto;
+    width: 95%;
+    background: #f9f9f9;
+    border-radius: 6px;
+    padding: 20px 48px;
+    color: #333;
+    font-weight: 400;
+}
+.page_content ol li {
+    border: none;
+    padding: 0px 6px;
+}
+.page_content ol li:hover {
+    border: none;
+    padding: 0px 6px;
+    box-shadow: none;
+}
+.page_content img{
+    max-width: 100%;
+    height: auto;
 }
 
 /*
@@ -574,7 +607,7 @@ loading动画
     color: #333;
     border-radius: 4px;
     padding: 6px 14px;
-    background: #ffffffad;
+    background: #171717;
     line-height: 30px;
     width: 30px;
     font-size: 12px;
@@ -905,6 +938,14 @@ span.l_mate {
 }
 .top_background {
     padding: 44px 20px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: table;
+	background-repeat: no-repeat;
 }
 p.actitle_tags span a {
 	line-height: 30px;
@@ -912,7 +953,7 @@ p.actitle_tags span a {
 .navbar.navbar-fixed-top.navbar-inverse {
     display: block;
 }
-.top-header,.header {
+.header {
     display: none;
 }
 span.view_box {
