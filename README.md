@@ -5,7 +5,7 @@
 
 因为现在工作问题没有太多时间，而且自身设计师属性高于coder所以主题可能并不完善，但是自己在本地测试了两遍，貌似是没啥问题，就先打包发出来同时欢迎其他开发者设计师朋友们进行扩展与优化。（请保留底部版权）
 
-![主题样式](http://blog.limiabc.com/wp-content/uploads/2018/09/l-talk.jpg)
+![主题样式](https://github.com/limileo/L-Talk/blob/master/images/l-talk.jpg)
 
 ## 主题介绍
  
