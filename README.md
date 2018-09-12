@@ -34,6 +34,6 @@
 
 如果想获取L-Talk 主题扩展定制或者安装后期维护之类类的服务，以及二次开发交流学习欢迎加入我的星球：
 
-![主题样式](https://github.com/limileo/L-Talk/blob/master/images/xq.jpg =260)
+![主题样式](https://github.com/limileo/L-Talk/blob/master/images/xq.jpg){width="260px"}}
 
 
