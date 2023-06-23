@@ -34,11 +34,11 @@ http://blog.limiabc.com
 
 最后，请保留主题版权。
 
-最后的最后，主题问题反馈，建议见解，可在http://blog.limiabc.com/ltalk 进行留言
+最后的最后，主题问题反馈，建议见解，可在http://talk.limiabc.com 进行留言
 
 注意主题是免费交流，不做任何技术支持！！
 
-如果想获取L-Talk 主题扩展定制或者安装后期维护之类类的服务，以及二次开发交流学习欢迎加入我的星球：
+如果想获取L-Talk 主题扩展定制或者安装后期维护之类类的服务，以及二次开发交流学习欢迎留言：
 
-![主题样式](https://github.com/limileo/L-Talk/blob/master/images/xq1.jpg)
+talk.limiabc.com
 
